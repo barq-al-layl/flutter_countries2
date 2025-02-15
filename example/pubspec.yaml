@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  countries_utils: 
+  flutter_countries2:
     path: ../
 
 dev_dependencies:

@@ -1,4 +1,4 @@
-import 'package:countries_utils/models/timezone.dart';
+import 'package:flutter_countries2/models/timezone.dart';
 
 class TimeZoneList {
   final List<TimeZone>? timeZones;

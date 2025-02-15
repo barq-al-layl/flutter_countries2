@@ -1,6 +1,6 @@
-import 'package:countries_utils/countries_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_countries2/flutter_countries2.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

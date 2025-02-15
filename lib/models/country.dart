@@ -1,6 +1,6 @@
-import 'package:countries_utils/helpers/flag_string.dart';
-import 'package:countries_utils/models/currency_list.dart';
-import 'package:countries_utils/models/timezone_list.dart';
+import 'package:flutter_countries2/helpers/flag_string.dart';
+import 'package:flutter_countries2/models/currency_list.dart';
+import 'package:flutter_countries2/models/timezone_list.dart';
 
 class Country {
   final String? name;

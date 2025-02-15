@@ -1,5 +1,5 @@
-import 'package:countries_utils/countries.dart';
-import 'package:countries_utils/models/timezone.dart';
+import 'package:flutter_countries2/countries.dart';
+import 'package:flutter_countries2/models/timezone.dart';
 import 'package:test/test.dart';
 
 void main() {
