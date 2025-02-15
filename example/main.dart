@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:countries_utils/countries_utils.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -8,8 +8,8 @@ class HomeScreen extends StatelessWidget {
     final List<Country> countries = Countries.all();
 
     return Scaffold(
-        body: Center(
-      child: CupertinoPicker(
+      body: Center(
+        child: CupertinoPicker(
           onSelectedItemChanged: (i) {},
           scrollController: FixedExtentScrollController(initialItem: 67),
           offAxisFraction: .1,
@@ -20,16 +20,20 @@ class HomeScreen extends StatelessWidget {
           useMagnifier: true,
           looping: true,
           children: countries
-              .map((country) => Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      Localizations.localeOf(context).languageCode == "en"
-                          ? '${country.name} ${country.flagIcon}'
-                          : '${country.nativeName}  ${country.flagIcon}',
-                      style: Theme.of(context).textTheme.bodyText1,
-                    ),
-                  ))
-              .toList()),
-    ));
+              .map(
+                (country) => Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    Localizations.localeOf(context).languageCode == "en"
+                        ? '${country.name} ${country.flagIcon}'
+                        : '${country.nativeName}  ${country.flagIcon}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                ),
+              )
+              .toList(),
+        ),
+      ),
+    );
   }
 }
