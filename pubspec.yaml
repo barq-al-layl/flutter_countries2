@@ -1,4 +1,4 @@
-name: countries_utils
+name: flutter_countries2
 description: 'A lite dart package for providing offline World Countires Data with helpful utils to your dart or flutter application'
   
 version: 1.0.1
