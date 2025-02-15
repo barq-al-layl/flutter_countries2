@@ -1,7 +1,7 @@
 name: flutter_countries2
 description: 'A lite dart package for providing offline World Countries Data with helpful utils to your dart or flutter application'
   
-version: 1.0.1
+version: 1.0.2
 
 HomeScreen: https://github.com/barq-al-layl/countries_utils.git
 
